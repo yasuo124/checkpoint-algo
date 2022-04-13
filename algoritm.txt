@@ -1,0 +1,19 @@
+ALGORITME Checkpointsalgo
+ var 
+i,nbc,nbw,nbv:integer
+str:string
+
+begin
+for (let i = 0; i < str.lenght; i++)
+let nbc=0
+let nbw=0
+let nbv=0
+ if (str[i]=" "){
+nbc=nbc+i
+}
+else if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u') {
+nbv=nbv+1
+}
+else {
+nbw=nbw+1
+}
